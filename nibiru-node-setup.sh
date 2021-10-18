@@ -9,6 +9,7 @@ apt install vim build-essential jq -y
 ## node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 . ~/.bashrc
+. ~/.nvm/nvm.sh
 nvm install v14.17.3
 
 ## vim
