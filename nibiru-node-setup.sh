@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eu
+set -e
 
 ## update & install nginx/certbot
 echo dependencies update and installing...
