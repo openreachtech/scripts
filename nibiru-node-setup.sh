@@ -42,11 +42,11 @@ make install
 ### service
 tee /etc/systemd/system/nibirud.service > /dev/null <<EOF
 [Unit]
-Description=Gaiad Full Node
+Description=Nibirud Full Node
 After=network-online.target
 [Service]
 User=root
-ExecStart=/root/go/bin/gaiad start
+ExecStart=/root/go/bin/nibirud start
 Restart=always
 RestartSec=3
 LimitNOFILE=65535
@@ -55,4 +55,4 @@ WantedBy=multi-user.target
 EOF
 
 systemctl daemon-reload
-systemctl enable gaiad
+systemctl enable nibirud
