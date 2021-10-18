@@ -8,7 +8,7 @@ apt install vim build-essential jq nginx certbot python3-certbot-nginx -y
 
 ## node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-source ~/.bashrc
+. ~/.bashrc
 nvm install v14.17.3
 
 ## vim
