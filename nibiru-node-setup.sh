@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bash  -i
+
 set -e
 
 ## update & install nginx/certbot
